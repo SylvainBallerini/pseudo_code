@@ -1,0 +1,12 @@
+Variable
+  nombre_Utilisateur
+  string <- "Bienvenue à la wild"
+  
+ DEBUT
+  Lire nombre_Utilisateur
+  Tant que nombre_Utilisateur > 0
+   |  Retourner string
+   |  décrémenter nombre_Utilisateur
+  Fin Tant que
+ FIN
+ 
